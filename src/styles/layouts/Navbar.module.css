@@ -1,0 +1,90 @@
+.navbar {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 32px;
+  align-items: center;
+  padding: 28px 32px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  position: sticky;
+  top: 0;
+}
+
+.navbar > div > a {
+  text-decoration: none;
+  color: #212121;
+  font-size: 1.25rem;
+}
+
+.navbar > div > a:hover {
+  text-decoration: none;
+  color: #5ed3f3;
+}
+
+.linksLeft {
+  display: flex;
+  gap: 16px;
+}
+
+.linksRight {
+  display: flex;
+  gap: 16px;
+  justify-self: end;
+}
+
+.personInfoContainer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 150px;
+  min-width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.personNameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+}
+
+.personNameContainer > a {
+  font-size: 1.30rem !important;
+  color: #212121 !important;
+}
+
+.personNameContainer > p {
+  font-size: 1.11rem;
+}
+
+.personImageContainer {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  overflow: hidden;
+  border: solid 8px white;
+  outline: solid 2px black;
+  position: absolute;
+  top: 0;
+}
+
+.personImageContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fadeOut {
+  opacity: 0;
+  transition: all 1s !important;
+}
+
+.fadeIn {
+  opacity: 1;
+  transition: all 1s !important;
+}

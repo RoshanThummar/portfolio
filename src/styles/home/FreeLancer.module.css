@@ -1,0 +1,18 @@
+.overlay {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.freelancer > p {
+    padding: 70px 0px 0px 0px;
+    font-size: 300%;
+}
+
+.freelancer > button {
+    margin: 40px 0px 70px 0px;
+    border-radius: 5px;
+    padding: 13px 50px 13px 50px;
+}

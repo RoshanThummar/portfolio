@@ -1,0 +1,10 @@
+.img1 > img {
+    width: 20%;
+    margin-top: 5%;
+    padding: 10px;
+}
+.img1 {
+    text-align: center;
+    align-items: center;
+
+}
